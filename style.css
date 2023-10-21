@@ -1,0 +1,50 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.continer {
+  font-size: 20px;
+  font-family: poppins;
+  max-width: 1140px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #edede9;
+}
+
+.student-data {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input:focus {
+  visibility: visible;
+  outline: none;
+}
+
+input:focus::placeholder {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  z-index: 999;
+  font-size: 10px;
+  transition: 0.4s;
+  visibility: visible;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.footer {
+  width: 100vw;
+}
